@@ -1,0 +1,13 @@
+<AllTestCases>
+    <StepParametersFilePath>edz/test/action/TestParameters.xml</StepParametersFilePath>
+    <StepAssembly>com.test.test.cases.</StepAssembly>
+    <StepGroup>TestSteps</StepGroup>
+    <InterfaceID>1</InterfaceID>
+    <ModuleID>23</ModuleID>
+	
+    <TestCase ID="Test01" Name="test01Test" CaseTags="P1">
+      <Desc>正常登录</Desc>
+      <Step StepName="TestApi"  StepParameterID="test01Test"/>
+    </TestCase>
+	
+</AllTestCases>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="suite" parallel="none">
+  <test name="test">
+
+  </test><!-- Test -->
+        <listeners >
+            <listener class-name="com.server.utils.listeners.AssertListener"></listener>
+            <!--  测试报告  -->
+            <listener class-name="com.server.utils.listeners.ExtentTestNGIReporterListener"></listener>
+            <!-- 出错了重跑 和 忽略校验 -->
+            <listener class-name="com.server.utils.listeners.AutoTestListener"></listener>
+            <!-- 新测试报告 -->
+            <listener class-name="com.server.utils.listeners.ZTestReport"></listener>
+        </listeners>
+</suite> <!-- Suite -->

@@ -1,0 +1,27 @@
+<AllStepParameters>
+   <StepParameter ID="test01Test" Name="" >
+    <ConnectionString></ConnectionString>
+     <CommandText></CommandText>
+
+       <RequestHeader>
+           <parameter Key="code" Value="0"/>
+       </RequestHeader>
+
+       <Parameters>
+			<!--<parameter Key="date" Value="__day(DateTime,yyyyMMddHH)"/>-->
+           <parameter Key="type" Value="top"/>
+           <parameter Key="key" Value="APPKEY"/>
+	   </Parameters>
+       <!--<RequestBody></RequestBody>-->
+       <AssertType>equal</AssertType>
+       <RequestStatus>200</RequestStatus>
+
+       <VerifyResult>
+           <parameter Key="errorCode" Value="0"/>
+       </VerifyResult>
+
+    </StepParameter>
+
+	<!-- <parameter Key="message" Value="登录账号不能为空"/> -->
+</AllStepParameters>    
+ 

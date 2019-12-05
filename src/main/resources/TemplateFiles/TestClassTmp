@@ -1,0 +1,37 @@
+package $TestClasspackageName;
+
+import org.testng.annotations.Test;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
+
+import com.server.api.dataobject.CaseExecutor;
+import com.server.api.dataobject.InterfaceStepsExecutor;
+
+public class $TemplateClassName {
+
+	@BeforeTest
+	public void beforeTestMethod(){
+	}
+	
+	@BeforeMethod
+	public void beforeMethod(){
+	}
+	
+	__TEST__
+	@Test (timeOut = 60000)
+	public void $TemplateTestMethod() throws Exception{
+		CaseExecutor executor = new $InterfaceStepExecutorName($ExecutorParam);
+		executor.execute();
+	}
+	__TEST__
+	
+	@AfterMethod
+	public void afterMethod(){
+	}
+	
+	@AfterClass
+	public void afterClassMethod(){
+	}
+}

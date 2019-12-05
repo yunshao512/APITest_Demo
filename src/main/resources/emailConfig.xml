@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+        <subject>API自动化测试报告</subject>
+
+        <server>smtp.exmail.qq.com</server>
+
+        <sender>XXXXXXXXXXXXXXXXX</sender>
+
+        <username>XXXXXXXXXXXXXXXXXXX</username>
+
+        <password>XXXXXXXXXXXXXXXXXXXX</password>
+
+        <nickname>XXXXXXXXXXXXXXXXXXX</nickname>
+
+        <to>XXXXXXXXXXXXXXXXXXXXXX</to>
+
+        <cc>XXXXXXXXXXXXXXXXXXXXXXX</cc>
+
+        <addressee>XXXXXXXXXXXXXXXXXXXX</addressee>
+
+        <from>XXXXXXXXXXXXXXXXXXXXXXX</from>
+</root>

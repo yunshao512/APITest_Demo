@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="suite" parallel="none">
+  
+  <test name="test">
+
+  
+    <classes>
+      <class name="com.test.test.cases_unittest.edz_test_action_TestTestCase"/>
+    </classes>
+  </test>
+  <!-- Test -->
+        
+  <listeners>
+            
+    <listener class-name="com.server.utils.listeners.AssertListener"/>
+            
+    <!--  测试报告  -->
+            
+    <listener class-name="com.server.utils.listeners.ExtentTestNGIReporterListener"/>
+            
+    <!-- 出错了重跑 和 忽略校验 -->
+            
+    <listener class-name="com.server.utils.listeners.AutoTestListener"/>
+            
+    <!-- 新测试报告 -->
+            
+    <listener class-name="com.server.utils.listeners.ZTestReport"/>
+        
+  </listeners>
+</suite>
+<!-- Suite -->
